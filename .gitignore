@@ -1,0 +1,63 @@
+# macOS and Windows
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python bytecode, environments, and packaging
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# Node.js dependencies and tooling caches
+node_modules/
+.npm/
+.pnpm-store/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.turbo/
+*.tsbuildinfo
+
+# Build output, caches, and test coverage
+/build/
+/dist/
+.cache/
+coverage/
+htmlcov/
+.coverage
+.coverage.*
